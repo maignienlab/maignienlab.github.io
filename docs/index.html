@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr.&nbsp;Gang He">
 <meta name="description" content="Microbial Ecogenomic Group UBO">
 
-<title>Microbial Ecogenomics Group | Brest University – Maignien Lab</title>
+<title>Microbial Ecogenomics Group | Brest University – Quarto Academic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,14 +51,13 @@ ul.task-list li input[type="checkbox"] {
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -82,11 +82,34 @@ gtag('js', new Date());
 gtag('config', '', { 'anonymize_ip': true});
 </script>
 
+<!-- 
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+<!---
+The following code are needed to show dimension citation and altmetrics.
+https://api.altmetric.com/embeds.html
+https://badge.dimensions.ai/
+--->
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Microbial Ecogenomics Group | Brest University – Maignien Lab">
-<meta property="og:image" content="files/images/placeholder4.JPG">
-<meta property="og:site_name" content="Maignien Lab">
+<meta property="og:title" content="Microbial Ecogenomics Group | Brest University – Quarto Academic">
+<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/balleny.jpg">
+<meta property="og:site_name" content="Quarto Academic">
+<meta name="twitter:title" content="Microbial Ecogenomics Group | Brest University – Quarto Academic">
+<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/balleny.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -99,7 +122,7 @@ gtag('config', '', { 'anonymize_ip': true});
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Maignien Lab</span>
+    <span class="navbar-title">Quarto Academic</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -108,6 +131,59 @@ gtag('config', '', { 'anonymize_ip': true});
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./posts.html#category=news">
+ <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts.html#category=event">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./publications.html">
+ <span class="dropdown-text">List of Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts.html#category=paper">
+ <span class="dropdown-text">Selected Papers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects.html">
+ <span class="dropdown-text">Grants</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Outreach</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-outreach">    
+        <li>
+    <a class="dropdown-item" href="./posts.html#category=presentation">
+ <span class="dropdown-text">Presentations</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
 <span class="menu-text">Group</span></a>
@@ -115,12 +191,22 @@ gtag('config', '', { 'anonymize_ip': true});
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./files/CV_MAIGNIEN_2026_EN.pdf"> 
+    <a class="nav-link" href="./files/nsf-biosketch.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/loimai.bsky.social"> 
+    <a class="nav-link" href="https://bsky.app" target="_blank"> 
 <span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -147,7 +233,7 @@ gtag('config', '', { 'anonymize_ip': true});
 
 <div class="quarto-about-trestles column-page">
   <div class="about-entity">
-    <img src="files/images/placeholder4.JPG" class="about-image
+    <img src="files/images/balleny.jpg" class="about-image
   rounded " style="width: 70%;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -174,6 +260,7 @@ gtag('config', '', { 'anonymize_ip': true});
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
+<p>We use large next-generation DNA sequencing datasets, together with environmental ’omics, bioinformatics and numerical ecology tools, to address relevant questions in marine microbial ecology. Our current research focuses on bacterial genome plasticity in a coastal marine environments (MicroBrest Coastal Microbial Observatory project), establishing an Atlas of microbial genes and genomes from the Southern Ocean (ACE-ecogenomics project) and from the deep-sea sediment (ABYSS project). We are also interested in applying these approaches to address environmental issues such as marine microplastic, biocorrosion and pollutant removal.</p>
 
 
 </div></div>
@@ -247,7 +334,7 @@ gtag('config', '', { 'anonymize_ip': true});
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/drganghe\.github\.io\/custom");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -583,18 +670,30 @@ gtag('config', '', { 'anonymize_ip': true});
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-Loïs Maignien ©
+<a href="http://www.github.com">Your Name</a> ©
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">
-<p>Build on <a href="https://github.com/drganghe/quarto-academic-website-template">Quarto Academic Website Template</a></p>
+<p>Build on <a href="https://github.com/drganghe/quarto-academic-website-template">Quarto Academic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://bsky.app" target="_blank">
 <p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
 </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="./posts.xml" target="_blank">
+      <i class="bi bi-rss" role="img">
+</i> 
+    </a>
   </li>  
 </ul>
     </div>
