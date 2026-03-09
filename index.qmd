@@ -53,5 +53,5 @@ about:
 
 :::{#hero-heading}
 
-We use large next-generation DNA sequencing datasets, together with environmental ‘omics, bioinformatics and numerical ecology tools, to address relevant questions in marine microbial ecology. Our current research focuses on bacterial genome plasticity in a coastal marine environments (MicroBrest Coastal Microbial Observatory project), establishing an Atlas of microbial genes and genomes from the Southern Ocean (ACE-ecogenomics project) and from the deep-sea sediment (ABYSS project). We are also interested in applying these approaches to address environmental issues such as marine microplastic, biocorrosion and pollutant removal. 
+We use large next-generation DNA sequencing datasets, together with environmental ‘omics, bioinformatics and numerical ecology tools, to address relevant questions in marine microbial ecology. Our current research focuses on bacterial genome plasticity in a coastal marine environments (MicroBrest Coastal Microbial Observatory project), establishing an Atlas of microbial genes and genomes from the Southern Ocean (ACE-ecogenomics project) and from the deep-sea sediment (ABYSS project). We are also interested in applying these approaches to address environmental issues such as marine microplastic, biocorrosion and pollutant removal.
 
