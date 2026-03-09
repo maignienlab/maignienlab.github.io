@@ -1,0 +1,10 @@
+    - path: 
+      image: "/files/profiles/pommellec.jpg"
+      title: "Jolann Pommellec"
+      lastname: "pommellec"
+#      author: 
+      subtitle: "PhD Student"
+#      date: "2024-03-12"
+      categories: [PhD Student] 
+      started: ""
+      ended: ""

@@ -1,6 +1,6 @@
 ---
 title: "People"
-subtitle: "Who we are"
+subtitle: ""
 #image: files/group.jpeg
 page-layout: full
 date-format: "YYYY-MM"
@@ -10,39 +10,40 @@ listing:  #an example of listing external links
   sort: "lastname asc"
   type: grid
   fields: [image, title, subtitle]
-  grid-item-align: center
-  grid-columns: 4
-  image-height: 200px
+#  grid-item-align: center
+#  grid-columns: 4
+  image-height: 250px
   categories: true
 #  sort-ui: true
 #  filter-ui: true
   contents: 
-    - /people/pi.yml  # Use individual files here as you may use each person at different occasions such as events, news.
-    - /people/phd-student.yml
-    - /people/masters-student.yml
-    - /people/undergraduate-student.yml
+    - /people/maignien.yml
+    - /people/dore.yml
+    - /people/pommellec.yml
+    - /people/ailliot.yml  # Use individual files here as you may use each person at different occasions such as events, news.
+    
 
-- id: lab-alumni
-  sort: 
-    - "ended desc"
-    - "lastname asc"  
-  type: table
-  fields: [image, title, subtitle, started, ended]
-  grid-item-align: center  
-  grid-columns: 4
-  image-height: 25px
-  field-display-names: 
-      title: "Name"
-      subtitle: "Role"
-      started: "Started"
-      ended: "Ended"
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-    - /people/phd-alumni.yml
-    - /people/masters-alumni.yml
-    - /people/undergraduate-alumni.yml
+# - id: lab-alumni
+#   sort: 
+#     - "ended desc"
+#     - "lastname asc"  
+#   type: table
+#   fields: [image, title, subtitle, started, ended]
+#   grid-item-align: center  
+#   grid-columns: 4
+#   image-height: 25px
+#   field-display-names: 
+#       title: "Name"
+#       subtitle: "Role"
+#       started: "Started"
+#       ended: "Ended"
+# #  categories: true
+# #  sort-ui: true
+# #  filter-ui: true
+#   contents: 
+#     - /people/phd-alumni.yml
+#     - /people/masters-alumni.yml
+#     - /people/undergraduate-alumni.yml
 
  
 

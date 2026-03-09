@@ -1,0 +1,8 @@
+    - path: 
+      image: "/files/profiles/maignien.JPG"
+      title: "Loïs Maignien"
+      lastname: ""
+#      author: 
+      subtitle: "PI"
+#      date: "2024-03-12"
+      categories: [Group Leader] 

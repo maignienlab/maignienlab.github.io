@@ -1,0 +1,10 @@
+    - path: 
+      image: "/files/profiles/profile1.JPG"
+      title: "Léna Ailliot"
+      lastname: "A"
+#      author: 
+      subtitle: "PhD Student"
+#      date: "2024-03-12"
+      categories: [PhD Student] 
+      started: ""
+      ended: ""

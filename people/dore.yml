@@ -1,0 +1,8 @@
+    - path: 
+      image: "/files/profiles/dore.jpg"
+      title: "Hugo Doré"
+      lastname: ""
+#      author: 
+      subtitle: "postdoc"
+#      date: "2024-03-12"
+      categories: [postdoc] 
