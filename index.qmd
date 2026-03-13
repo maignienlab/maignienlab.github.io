@@ -1,7 +1,7 @@
 ---
 title: "Microbial Ecogenomics Group | Brest University"
 description-meta: "Microbial Ecogenomic Group UBO"
-image: "files/images/balleny.jpg"
+image: "files/images/mertz.jpg"
 page-navigation: false
 toc: false
 #sidebar: false
