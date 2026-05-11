@@ -20,7 +20,8 @@ listing:  #an example of listing external links
     - /people/maignien.yml
     - /people/dore.yml
     - /people/pommellec.yml
-    - /people/ailliot.yml  # Use individual files here as you may use each person at different occasions such as events, news.
+    - /people/ailliot.yml
+    - /people/pavlou.yml  # Use individual files here as you may use each person at different occasions such as events, news.
     
 
 # - id: lab-alumni

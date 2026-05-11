@@ -1,0 +1,8 @@
+    - path: 
+      image: "/files/profiles/pavlou.jpg"
+      title: "Antrea Pavlou"
+      lastname: ""
+#      author: 
+      subtitle: "postdoc"
+#      date: "2026-05-01"
+      categories: [postdoc] 
